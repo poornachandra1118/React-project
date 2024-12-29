@@ -23,10 +23,7 @@ const Navbar_1 = (prop) => {
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-              // {/*<Link to="/Home">Home</Link>*/}
-            //  <Nav.Link href="/Home" >
-            //   Home
-            // </Nav.Link>
+              
             
             <Nav.Link href="#action2">Service</Nav.Link>
             {/* <NavDropdown title="Link" id="navbarScrollingDropdown">

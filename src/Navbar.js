@@ -23,7 +23,10 @@ const Navbar_1 = (prop) => {
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-           <Link to="/Home">Home</Link>
+           // <Link to="/Home">Home</Link>
+             <Nav.Link href="/Home" >
+              Contact
+            </Nav.Link>
             
             <Nav.Link href="#action2">Service</Nav.Link>
             {/* <NavDropdown title="Link" id="navbarScrollingDropdown">
@@ -46,7 +49,7 @@ const Navbar_1 = (prop) => {
               About
             </Nav.Link>
           </Nav>
-          <Link to="/">Home</Link>
+          // <Link to="/">Home</Link>
           {/* <Form className="d-flex">
             <Form.Control
               type="search"
